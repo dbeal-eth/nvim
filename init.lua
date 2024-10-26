@@ -14,3 +14,6 @@ require("config.commands")
 
 -- LSP configuration
 require("config.lsp")
+
+-- the color scheme
+vim.cmd [[ colorscheme tokyonight-night ]]
