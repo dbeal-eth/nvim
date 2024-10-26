@@ -2,7 +2,7 @@
 
 When I first started using neovim I used this wonderful [colemak preset]() by @theniceboy, and I really like the keybindings and plugin choices he used for his configuration. Many of those ideas have been brought into this repo while removing some of the other parts of the configuration that I never got into using.
 
-Overall, I'm going for a lightweight IDE
+Overall, I'm going for a lightweight IDE that focuses on staying with popular/established plugins that work well together. And keeping most of the configuration vanilla.
 
 ## Usage
 
