@@ -197,5 +197,17 @@ return {
 	  lazy = false,
 	  priority = 1000,
 	  opts = {},
-	}
+	},
+    -- github copilot (now free)
+    -- if you want to use copilot: run :Copilot setup (otherwise, this plugin doesn't do anything)
+    {
+      "github/copilot.vim",
+      config = function()
+        -- disable copilot unless explicitly requested
+        vim.g.copilot_filetypes = {
+          ['*'] = false,
+        }
+      end
+    }
 }
+

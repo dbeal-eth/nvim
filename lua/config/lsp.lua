@@ -4,7 +4,7 @@ local lspconfig = require('lspconfig')
 lspconfig.vtsls.setup {
 	capabilities = capabilities
 }
-lspconfig.solidity_ls.setup {
+lspconfig.solidity_ls_nomicfoundation.setup {
 	capabilities = capabilities
 }
 
